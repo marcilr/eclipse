@@ -3,9 +3,83 @@ Created Mon Jan 28 10:44:36 AST 2019
 by Raymond E. Marcil <marcilr@gmail.com>
 
 
-Installation of Eclipse IDE on windows 10.
+Installation of Eclipse IDE on windows 10
 
 
 Goal to determine ssl key issues with TFS (Team Foundation Server) by Microsoft
 
+
+1. Download the Eclipse IDE 2018-12 installer:
+eclipse-inst-win64.exe
+  The Eclipse Foundation
+  Downloaded & installed: 1/28/2018
+  https://www.eclipse.org/downloads/
+
+2. Run installer as adminstrator:
+right-click eclipse-inst-win64.exe
+click "Run as administrator"
+
+3. At popup:
+Do you want to allow this app to make changes to
+your device?
+
+Eclipse Foundation, Inc.
+
+click Yes
+
+4. At eclipseoinstaller by Oomph
+
+type filter text
+  Eclipse IDE for Java Developers
+  The essential tools for any Java developer, including a Java IDE,
+  a Git client, XML Editor, Mylyn, Maven and Gradle Integration
+
+  Eclipse IDE for Enterprise Java Developers   <===
+  Tools for Java developers creating Enterprise Java and Web applications,
+  including a Java IDE, tools for Enterprise Java, JPA, JSF, Mylyn, Maven,
+  Git and...
+
+  Eclipse IDE for C/C++ Developers
+  An IDE for C/C++ developers and Mylyn integration.
+
+  Eclipse IDE for JavaScript and Web Developers
+  The essential tools for any Javascript developer, including JavaScript,
+  HTML, CSS, XML languages support, Git client, and Mylyn.
+  ...
+  Eclipse IDE for Rust Developers
+  The essential tools for any Rust developer, including Rust language
+  support, Git client. command-line integration, Mylyn and editors.
+
+
+  select Eclipse IDE for Enterprise Java Developers
+         (per inquiry to Peter Parker on Mon Jan 28, 2019)
+
+5. At eclipseoinstaller by Oomph
+   Eclipse IDE for Enterprise Java Developers   <===
+   Tools for Java developers creating Enterprise Java and Web applications,
+   including a Java IDE, tools for Enterprise Java, JPA, JSF, Mylyn, Maven,
+   Git and more.
+
+                                                                Size:
+   Installation folder: C:\Users\remarcil\eclipse\jee-2018-12   49,911 KB
+                        check create start menu entry                1 KB
+                        check desktop shortcuts                       1KB
+
+   click INSTALL
+
+6. At Eclipse Foundation Software User Agreement, April 9, 2014
+   see: user-agreement.txt
+
+   click Accept Now
+
+
+Filelist
+========
+user-agreement.txt
+  Eclipse Installer
+  Eclipse Foundation Software User Agreement
+  Applicable licenses will be discovered and prompted later in the installation process.
+  Avoid such interruptions by accepting the most common license now.
+  Eclipse Foundation Software User Agreement
+  April 9, 2014
 
