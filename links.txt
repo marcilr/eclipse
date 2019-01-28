@@ -1,0 +1,23 @@
+links.txt
+Created Mon Jan 28 10:40:35 AST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Eclipse IDE related links
+
+
+Links
+=====
+Eclipse desktop & web IDEs
+The Eclipse Foundation
+https://www.eclipse.org/ide/
+
+Eclipse Downloads
+https://www.eclipse.org/downloads/
+
+Eclipse IDE for C/C++
+https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-ide-cc-developers
+
+Eclipse IDE for Java Developers
+The Eclipse Foundation
+https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-java-developers
