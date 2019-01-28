@@ -15,7 +15,7 @@ eclipse-inst-win64.exe
   Downloaded & installed: 1/28/2018
   https://www.eclipse.org/downloads/
 
-2. Run installer as adminstrator:
+2. Run installer as administrator:
 right-click eclipse-inst-win64.exe
 click "Run as administrator"
 
@@ -263,7 +263,207 @@ click INSTALL
       https://www.eclipse.org/downloads/packages/
       https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip
 
+14. Expand eclipse-jee-2018-12-R-win32-x86_64.zip to Eclipse/ (371MB)
+    In Eclipse/ run eclipse.exe eclipse ide 2018-12 eclipse launcher.
 
+    i. At Eclipse IDE Launcher
+
+    Select a directory as workspace
+    Eclipse IDE uses the wostkspace diretory to store its preferences and development artifacts.
+
+    Workspace: C:\Users\remarcil\eclipse-workspace
+
+    x User this as the default and do not ask again
+
+    click Launch
+
+15. At Eclipse Java EE IDE for Web Developers
+...
+Checkout projects from Git
+Checkout Eclipse projects hosted in Git repository
+...
+
+click Checkout projects from Git
+
+16. At Import Projects from Git, Select Repository Source:
+    Select a location of Git Repositories
+
+    Existing local repository
+    Clone URI
+
+    click Clone URI
+    click Next
+
+11. At Import Projects from Git, Source Git Repository:
+    Enter the location of the source repository.
+
+    Location
+    URI:               ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+                       ===> ssh://dnratwtfsp:22/Sandboxes/_git/AWStats
+    HOST:              dnratwtfsp.soa.alaska.gov
+    Repository path:   Sandboxes/_git/AWStats
+
+    Connecton
+    Protocol:          ssh
+    Port:              22
+
+    NOTE: HOST, Repository path, Protocol, and Port were instantly populated
+          when URI was pasted in.  remarcil@ prepended when "User" below
+          populated.
+
+    Authentication
+    User:              remarcil
+    Password:          *** (same as windows)
+
+    x Store in Secure Store
+
+    click Next
+
+12. Get error several times before getting URI in the format it wanted.
+
+    An error occurred when trying to contact
+    ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+    See the Error Log for more details
+
+    Possible reasons
+      o Incorrect URL
+      o No network connection (e.g. wrong proxy settings)
+      o .git is missing at end of repository URL
+      o SSH is not configured correctly (see Eclipse preferences > Network Connections > SSH2)
+
+    Don't show this dialog again
+
+13. At Import Projects from Git, Branch Selection
+    Select branches to clone from remote repository.  Remote tracking branches
+    will be created to track updates for these branches in the remote repository.
+
+    Branches of ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    x master
+
+    click Next
+
+14. At Import Projects from Git, Local Destination
+    Configure the local storage location for AWStats.
+
+    Destination
+    Directory:        C:\Users\remarcil\git\AWStats
+                      ===> :\Users\remarcil\git\dnr\projects\AWStats
+    Initial branch:   master             <=== Only choice
+    <unchecked>       Clone submodules
+
+    Configuration
+    Remote name:      origin
+
+    click Next
+
+15. Got popup:
+    Secure Storage - Password Hint Needed
+    A master password was created in Eclipse Secure Storage.  If you ever need to recover
+    your password, you need a password hint.  Do you want to provide a password hint?
+
+Question 1
+Question: Bob and Doug?
+Answer:   the usual
+
+Qurstion 2
+Question: Sapphires come from?
+Answer:   Australia
+
+click OK
+
+16. At Cloning from ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    Select a wizard to use for importing projects
+
+    Depending on the wizard, you may select a directory to determine the
+    wizard's scope
+
+    Wizard for project import
+      Import existing Exclipse projects     <=== No Eclipse yet
+    x Import using the New Project wizard   <=== Seemed suitable
+      Import as general project
+
+    Working tree - C:\Users\remarcil\git\dnr\projects\AWStats
+ 
+    click Finish
+
+17. At New Project
+    Select a wizard
+
+    Wizards:
+      ...
+      General
+        Faceted Project
+    x   Project           <=== Selected as AWStats is perl based
+      Java
+        Java Project
+        Java Project from Existing Ant Buildfile
+      Java EE
+        Application Client Project
+        Connector Project
+        Enterprise Application Project
+        Utility Project
+      ...
+
+  click Next
+
+18. At New Project
+    Project
+    Create a new project resource
+
+    Project Name: AWStats
+
+    x Use default location
+    Location: C:\Users\remarcil\eclipse-workspace\AWStats
+
+    Working sets
+    <unchecked> Added project workings sets
+    Working sets: <blank>
+
+    click Finish
+
+19. Got error popup:
+    Problem Occurred
+    Connecting Git team provider failed.  See log for details
+    org.eclipse.core.runtime.CoreException
+
+    click Show Error Log
+
+    Popup error shows:
+      x Connecting Git team provider failed.   See log for...    org.eclipse.ui
+        > Connecting Git team provider failed. See log for...    org.eclipse.core
+        i New keyring password generated                         org.eclipse.equinox.secur...                                    
+
+    click OK
+
+20. Reverted to step 16 to try 'Import as general project.':
+    Cloning from ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    Select a wizard to use for importing projects
+
+    Depending on the wizard, you may select a directory to determine the
+    wizard's scope
+
+    Wizard for project import
+      Import existing Exclipse projects     <=== No Eclipse yet
+      Import using the New Project wizard
+    x Import as general project             <=== After New Project wizard failed
+
+    Working tree - C:\Users\remarcil\git\dnr\projects\AWStats
+
+    click Next
+
+21. At Import Projects
+    Cloning from ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    Import Projects
+    Project AWStats already exists
+    
+    Project name: AWStats
+    Directory:    C:\Users\remarcil\git\dnr\projects\AWStats
+
+    Delete C:\Users\remarcil\git\dnr\projects\AWStats
 
 
 Filelist
