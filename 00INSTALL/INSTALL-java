@@ -446,7 +446,7 @@ click OK
     wizard's scope
 
     Wizard for project import
-      Import existing Exclipse projects     <=== No Eclipse yet
+      Import existing Eclipse projects      <=== No Eclipse yet
       Import using the New Project wizard
     x Import as general project             <=== After New Project wizard failed
 
