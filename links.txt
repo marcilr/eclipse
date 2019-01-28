@@ -21,3 +21,8 @@ https://www.eclipse.org/downloads/packages/release/photon/r/eclipse-ide-cc-devel
 Eclipse IDE for Java Developers
 The Eclipse Foundation
 https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-java-developers
+
+Setting up SSH keys in Eclipse for git
+by Michael Seiler
+https://michaelseiler.net/2013/08/26/setting-up-ssh-keys-in-eclipse-for-git/
+
