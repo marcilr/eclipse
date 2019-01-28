@@ -298,13 +298,14 @@ click Checkout projects from Git
     Enter the location of the source repository.
 
     Location
-    URI:               ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
-                       ===> ssh://dnratwtfsp:22/Sandboxes/_git/AWStats
+    URI:               ssh://remarcil@dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/MapAK
+                       ===> https://remarcil@dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/MapAK
     HOST:              dnratwtfsp.soa.alaska.gov
-    Repository path:   Sandboxes/_git/AWStats
+    Repository path:   Sandboxes/_git/MapAK
 
     Connecton
     Protocol:          ssh
+                       ===> https
     Port:              22
 
     NOTE: HOST, Repository path, Protocol, and Port were instantly populated
