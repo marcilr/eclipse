@@ -1,0 +1,485 @@
+INSTALL
+Created Mon Jan 28 10:44:36 AST 2019
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of Eclipse IDE on windows 10
+
+
+Goal to determine ssl key issues with TFS
+(Team Foundation Server) by Microsoft
+
+
+1. Download the Eclipse IDE 2018-12 installer:
+eclipse-inst-win64.exe
+  The Eclipse Foundation
+  Downloaded & installed: 1/28/2018
+  https://www.eclipse.org/downloads/
+
+2. Run installer as administrator:
+right-click eclipse-inst-win64.exe
+click "Run as administrator"
+
+3. At popup:
+Do you want to allow this app to make changes to
+your device?
+
+Eclipse Foundation, Inc.
+
+click Yes
+
+4. At eclipseoinstaller by Oomph
+
+type filter text
+  Eclipse IDE for Java Developers
+  The essential tools for any Java developer, including a Java IDE,
+  a Git client, XML Editor, Mylyn, Maven and Gradle Integration
+
+  Eclipse IDE for Enterprise Java Developers   <===
+  Tools for Java developers creating Enterprise Java and Web applications,
+  including a Java IDE, tools for Enterprise Java, JPA, JSF, Mylyn, Maven,
+  Git and...
+
+  Eclipse IDE for C/C++ Developers
+  An IDE for C/C++ developers and Mylyn integration.
+
+  Eclipse IDE for JavaScript and Web Developers
+  The essential tools for any Javascript developer, including JavaScript,
+  HTML, CSS, XML languages support, Git client, and Mylyn.
+  ...
+  Eclipse IDE for Rust Developers
+  The essential tools for any Rust developer, including Rust language
+  support, Git client. command-line integration, Mylyn and editors.
+
+
+  select Eclipse IDE for Enterprise Java Developers
+         (per inquiry to Peter Parker on Mon Jan 28, 2019)
+
+5. At eclipseoinstaller by Oomph
+   Eclipse IDE for Enterprise Java Developers   <===
+   Tools for Java developers creating Enterprise Java and Web applications,
+   including a Java IDE, tools for Enterprise Java, JPA, JSF, Mylyn, Maven,
+   Git and more.
+
+                                                                Size:
+   Installation folder: C:\Users\remarcil\eclipse\jee-2018-12   49,911 KB
+                        check create start menu entry                1 KB
+                        check desktop shortcuts                       1KB
+
+   click INSTALL
+
+6. At Eclipse Foundation Software User Agreement, April 9, 2014
+   see: user-agreement.txt
+
+   click Accept Now
+
+7. Started at 11:07 AM, Watch INSTALLING...
+
+8. At Eclipse Foundation Software User Agreement, November 22, 2017
+   x Remember accepted licenses
+
+   click Accept
+
+   The installation process is taking longer than usual: Fetching artifacts.jar
+   frm http://download.eclipse.org/oomph/drops/milestone/S20190116-015610-1.12.0-M1/
+
+
+9. Watch INSTALLING...
+
+   Installation failed with error. Show log.
+
+   click Shoow log.
+
+   eclipseinstaller by oomph
+   
+INSTALLATION LOG 
+[2019-01-28 11:06:56] Executing bootstrap tasks
+[2019-01-28 11:06:56] Java(TM) SE Runtime Environment 10.0.2+13
+[2019-01-28 11:06:56] Product org.eclipse.products.epp.package.jee.2018-12
+[2019-01-28 11:06:56] Bundle org.eclipse.oomph.setup 1.10.0.v20180914-1031, build=3784, branch=d5b911e1f3bc20f8e0c54af3126d8150fbc53bdf
+[2019-01-28 11:06:56] Bundle org.eclipse.oomph.setup.core 1.11.0.v20181203-0741, build=3784, branch=d5b911e1f3bc20f8e0c54af3126d8150fbc53bdf
+[2019-01-28 11:06:56] Bundle org.eclipse.oomph.setup.p2 1.10.0.v20180706-1242, build=3784, branch=d5b911e1f3bc20f8e0c54af3126d8150fbc53bdf
+[2019-01-28 11:06:56] Performing P2 Director (Eclipse IDE for Enterprise Java Developers (2018-12))
+[2019-01-28 11:06:56] Offline = false
+[2019-01-28 11:06:56] Mirrors = true
+[2019-01-28 11:06:56] Resolving 89 requirements from 3 repositories to C:\Users\remarcil\eclipse\jee-2018-12\eclipse
+[2019-01-28 11:06:56] Requirement epp.package.jee [4.10.0,5.0.0)
+[2019-01-28 11:06:56] Requirement org.eclipse.platform.feature.group [4.10.0,5.0.0)
+[2019-01-28 11:06:56] Requirement org.eclipse.rcp.feature.group [4.10.0,5.0.0)
+[2019-01-28 11:06:56] Requirement org.eclipse.buildship.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.cft.server.core.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.cft.server.ui.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.common.doc.user.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.connectivity.doc.user.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.connectivity.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.connectivity.oda.designer.core.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.connectivity.oda.designer.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.connectivity.oda.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.doc.user.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.apache.derby.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.hsqldb.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.ibm.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.ingres.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.jdbc.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.jdt.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.msft.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.mysql.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.oda.designer.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.oda.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.oracle.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.postgresql.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.sap.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.sdk.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.sqlite.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.enablement.sybase.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.intro.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.modelbase.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sdk.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.data.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.ddl.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.ddlgen.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.parsers.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.results.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqldevtools.sqlbuilder.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.datatools.sqltools.doc.user.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.eclemma.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.egit.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.egit.mylyn.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.epp.mpc.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jdt.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jpt.common.eclipselink.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jpt.common.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jpt.jaxb.eclipselink.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jpt.jaxb.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jpt.jpa.eclipselink.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jpt.jpa.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jsf.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.common.fproj.enablement.jdt.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.enterprise_ui.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.jsf.apache.trinidad.tagsupport.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.server_adapters.ext.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.server_adapters.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.server_ui.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.web_ui.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.webpageeditor.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.ws.axis2tools.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.ws.cxf.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.ws.jaxws.dom.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.jst.ws.jaxws.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.m2e.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.m2e.logback.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.m2e.wtp.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.m2e.wtp.jaxrs.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.m2e.wtp.jpa.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.m2e.wtp.jsf.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.mylyn.bugzilla_feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.mylyn.context_feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.mylyn.ide_feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.mylyn.java_feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.mylyn.wikitext_feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.mylyn_feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.pde.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.tips.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.tm.terminal.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.common.fproj.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.jsdt.chromium.debug.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.jsdt.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.server_adapters.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.web_ui.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.xml_ui.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.wst.xsl.feature.feature.group
+[2019-01-28 11:06:56] Requirement org.eclipse.oomph.setup.feature.group
+[2019-01-28 11:06:56] Repository http://download.eclipse.org/technology/epp/packages/2018-12
+[2019-01-28 11:06:56] Repository http://download.eclipse.org/releases/2018-12/201812191000
+[2019-01-28 11:06:56] Repository http://download.eclipse.org/oomph/updates/milestone/latest
+[2019-01-28 11:07:14] Calculating requirements and dependencies.
+[2019-01-28 11:07:20] Computing prerequisite plan
+[2019-01-28 11:08:20] Fetching artifacts.xml.xz from http://download.eclipse.org/technology/epp/packages/2018-12/
+[2019-01-28 11:08:23] Fetching compositeArtifacts.jar from http://download.eclipse.org/oomph/updates/milestone/latest/ (443B)
+[2019-01-28 11:08:30] Fetching artifacts.jar from http://download.eclipse.org/oomph/drops/milestone/S20190116-015610-1.12.0-M1/ (8.54kB)
+[2019-01-28 11:10:37] Collecting 39 artifacts from http://download.eclipse.org/oomph/updates/milestone/latest
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.extractor.lib
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.p2
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.setup.p2.edit
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.setup
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.setup.core
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.predicates.edit
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.setup.p2
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.jreinfo.win32.x86_64
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.jreinfo.ui
+[2019-01-28 11:10:38] Downloading org.eclipse.oomph.resources.edit
+[2019-01-28 11:10:38] Fetching org.eclipse.oomph.resources.edit_1.10.0.v20180706-1242.jar.pack.gz from 
+http://mirrors.syringanetworks.net/eclipse/oomph/drops/milestone/S20190116-015610-1.12.0-M1/plugins/ (14.17kB)
+[2019-01-28 11:10:38] Fetching org.eclipse.oomph.extractor.lib_1.5.0.v20180706-1242.jar.pack.gz from http://mirror.cc.vt.edu/pub/eclipse/oomph/drops/milestone/S20190116-015610-1.12.0-M1/plugins/ 
+(13.02kB)
+[2019-01-28 11:10:39] Fetching org.eclipse.oomph.jreinfo.ui_1.10.0.v20180706-1242.jar.pack.gz from 
+http://downloads.yoctoproject.org/eclipse-full/oomph/drops/milestone/S20190116-015610-1.12.0-M1/plugins/ (27.11kB)
+[2019-01-28 11:10:39] Downloading org.eclipse.oomph.jreinfo
+[2019-01-28 11:10:39] Downloading org.eclipse.oomph.p2
+[2019-01-28 11:10:39] Downloading org.apache.commons.logging
+...
+[2019-01-28 11:11:01] An error was detected while performing the engine operation and the changes are being rolled back. See the log for details.
+[2019-01-28 11:11:01] ERROR: org.eclipse.equinox.p2.engine code=4 An error occurred while collecting items to be installed
+  at org.eclipse.oomph.util.OomphPlugin.coreException(OomphPlugin.java:280)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl$3.commit(ProfileTransactionImpl.java:547)
+  at org.eclipse.oomph.p2.internal.core.ProfileTransactionImpl.commit(ProfileTransactionImpl.java:340)
+  at org.eclipse.oomph.setup.p2.impl.P2TaskImpl.perform(P2TaskImpl.java:733)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.doPerformNeededSetupTasks(SetupTaskPerformer.java:3334)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performNeededSetupTasks(SetupTaskPerformer.java:3262)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.performTriggeredSetupTasks(SetupTaskPerformer.java:3243)
+  at org.eclipse.oomph.setup.internal.core.SetupTaskPerformer.perform(SetupTaskPerformer.java:3143)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.installPerform(SimpleVariablePage.java:1298)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage.access$32(SimpleVariablePage.java:1166)
+  at org.eclipse.oomph.setup.internal.installer.SimpleVariablePage$20.run(SimpleVariablePage.java:1111)
+  ERROR: org.eclipse.equinox.p2.engine code=0 session context was:(profile=C__Users_remarcil_eclipse_jee-2018-12_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, 
+action=).
+  ERROR: org.eclipse.equinox.p2.artifact.repository code=0 No repository found containing: osgi.bundle,ch.qos.logback.classic,1.0.7.v20121108-1250
+  ERROR: org.eclipse.equinox.p2.artifact.repository code=0 No repository found containing: osgi.bundle,ch.qos.logback.core,1.0.7.v20121108-1250
+...
+  ERROR: org.eclipse.equinox.p2.artifact.repository code=0 No repository found containing: osgi.bundle,org.w3c.dom.events,3.0.0.draft20060413_v201105210656
+  ERROR: org.eclipse.equinox.p2.artifact.repository code=0 No repository found containing: osgi.bundle,org.w3c.dom.smil,1.0.1.v200903091627
+  ERROR: org.eclipse.equinox.p2.artifact.repository code=0 No repository found containing: osgi.bundle,org.w3c.dom.svg,1.1.0.v201011041433
+
+[2019-01-28 11:11:01] 
+
+10. With above failure attempt installation again:
+click INSTALL
+
+11. At Eclipse IDE for Enterprise Developers
+    Watch INSTALLING
+
+12. With above failure attempt installation again:
+    click Show log.
+
+    Similar set of errors as those in step 9.
+
+
+13. With above failure download Eclipse IDE for Enterprise Java Developers
+    for Windows 64-bit:
+
+    eclipse-jee-2018-12-R-win32-x86_64.zip (334 MB, ~6 mins)
+      https://www.eclipse.org/downloads/packages/
+      https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip
+
+14. Expand eclipse-jee-2018-12-R-win32-x86_64.zip to Eclipse/ (371MB)
+    In Eclipse/ run eclipse.exe eclipse ide 2018-12 eclipse launcher.
+
+    i. At Eclipse IDE Launcher
+
+    Select a directory as workspace
+    Eclipse IDE uses the wostkspace diretory to store its preferences and development artifacts.
+
+    Workspace: C:\Users\remarcil\eclipse-workspace
+
+    x User this as the default and do not ask again
+
+    click Launch
+
+15. At Eclipse Java EE IDE for Web Developers
+...
+Checkout projects from Git
+Checkout Eclipse projects hosted in Git repository
+...
+
+click Checkout projects from Git
+
+16. At Import Projects from Git, Select Repository Source:
+    Select a location of Git Repositories
+
+    Existing local repository
+    Clone URI
+
+    click Clone URI
+    click Next
+
+11. At Import Projects from Git, Source Git Repository:
+    Enter the location of the source repository.
+
+    Location
+    URI:               ssh://remarcil@dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/MapAK
+                       ===> https://remarcil@dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/MapAK
+    HOST:              dnratwtfsp.soa.alaska.gov
+    Repository path:   Sandboxes/_git/MapAK
+
+    Connecton
+    Protocol:          ssh
+                       ===> https
+    Port:              22
+
+    NOTE: HOST, Repository path, Protocol, and Port were instantly populated
+          when URI was pasted in.  remarcil@ prepended when "User" below
+          populated.
+
+    Authentication
+    User:              remarcil
+    Password:          *** (same as windows)
+
+    x Store in Secure Store
+
+    click Next
+
+12. Get error several times before getting URI in the format it wanted.
+
+    An error occurred when trying to contact
+    ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+    See the Error Log for more details
+
+    Possible reasons
+      o Incorrect URL
+      o No network connection (e.g. wrong proxy settings)
+      o .git is missing at end of repository URL
+      o SSH is not configured correctly (see Eclipse preferences > Network Connections > SSH2)
+
+    Don't show this dialog again
+
+13. At Import Projects from Git, Branch Selection
+    Select branches to clone from remote repository.  Remote tracking branches
+    will be created to track updates for these branches in the remote repository.
+
+    Branches of ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    x master
+
+    click Next
+
+14. At Import Projects from Git, Local Destination
+    Configure the local storage location for AWStats.
+
+    Destination
+    Directory:        C:\Users\remarcil\git\AWStats
+                      ===> :\Users\remarcil\git\dnr\projects\AWStats
+    Initial branch:   master             <=== Only choice
+    <unchecked>       Clone submodules
+
+    Configuration
+    Remote name:      origin
+
+    click Next
+
+15. Got popup:
+    Secure Storage - Password Hint Needed
+    A master password was created in Eclipse Secure Storage.  If you ever need to recover
+    your password, you need a password hint.  Do you want to provide a password hint?
+
+Question 1
+Question: Bob and Doug?
+Answer:   the usual
+
+Qurstion 2
+Question: Sapphires come from?
+Answer:   Australia
+
+click OK
+
+16. At Cloning from ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    Select a wizard to use for importing projects
+
+    Depending on the wizard, you may select a directory to determine the
+    wizard's scope
+
+    Wizard for project import
+      Import existing Exclipse projects     <=== No Eclipse yet
+    x Import using the New Project wizard   <=== Seemed suitable
+      Import as general project
+
+    Working tree - C:\Users\remarcil\git\dnr\projects\AWStats
+ 
+    click Finish
+
+17. At New Project
+    Select a wizard
+
+    Wizards:
+      ...
+      General
+        Faceted Project
+    x   Project           <=== Selected as AWStats is perl based
+      Java
+        Java Project
+        Java Project from Existing Ant Buildfile
+      Java EE
+        Application Client Project
+        Connector Project
+        Enterprise Application Project
+        Utility Project
+      ...
+
+  click Next
+
+18. At New Project
+    Project
+    Create a new project resource
+
+    Project Name: AWStats
+
+    x Use default location
+    Location: C:\Users\remarcil\eclipse-workspace\AWStats
+
+    Working sets
+    <unchecked> Added project workings sets
+    Working sets: <blank>
+
+    click Finish
+
+19. Got error popup:
+    Problem Occurred
+    Connecting Git team provider failed.  See log for details
+    org.eclipse.core.runtime.CoreException
+
+    click Show Error Log
+
+    Popup error shows:
+      x Connecting Git team provider failed.   See log for...    org.eclipse.ui
+        > Connecting Git team provider failed. See log for...    org.eclipse.core
+        i New keyring password generated                         org.eclipse.equinox.secur...                                    
+
+    click OK
+
+20. Reverted to step 16 to try 'Import as general project.':
+    Cloning from ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    Select a wizard to use for importing projects
+
+    Depending on the wizard, you may select a directory to determine the
+    wizard's scope
+
+    Wizard for project import
+      Import existing Eclipse projects      <=== No Eclipse yet
+      Import using the New Project wizard
+    x Import as general project             <=== After New Project wizard failed
+
+    Working tree - C:\Users\remarcil\git\dnr\projects\AWStats
+
+    click Next
+
+21. At Import Projects
+    Cloning from ssh://dnratwtfsp.soa.alaska.gov:22/Sandboxes/_git/AWStats
+
+    Import Projects
+    Project AWStats already exists
+    
+    Project name: AWStats
+    Directory:    C:\Users\remarcil\git\dnr\projects\AWStats
+
+    Delete C:\Users\remarcil\git\dnr\projects\AWStats
+
+
+Filelist
+========
+eclipse-jee-2018-12-R-win32-x86_64.zip (334 MB, ~6 mins)
+  SHA-512: 9157728d6f951f8fedb196fd0204e2dbd61a170a7ed096c1b71454ea4c25c8cff513656909c0ab8d97c95cd6fdcf2cbaa7a6d5fc728a9593568d917cd92d3cd9  eclipse-jee-2018-12-R-win32-x86_64.zip
+  https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-12/R/eclipse-jee-2018-12-R-win32-x86_64.zip
+
+
+user-agreement.txt
+  Eclipse Installer
+  Eclipse Foundation Software User Agreement
+  Applicable licenses will be discovered and prompted later in the installation process.
+  Avoid such interruptions by accepting the most common license now.
+  Eclipse Foundation Software User Agreement
+  April 9, 2014
+
