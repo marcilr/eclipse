@@ -28,7 +28,7 @@ Eclipse Foundation, Inc.
 
 click Yes
 
-4. At eclipseoinstaller by Oomph
+4. At eclipseinstaller by Oomph
 
 type filter text
   Eclipse IDE for Java Developers
@@ -55,7 +55,7 @@ type filter text
   select Eclipse IDE for Enterprise Java Developers
          (per inquiry to Peter Parker on Mon Jan 28, 2019)
 
-5. At eclipseoinstaller by Oomph
+5. At eclipseinstaller by Oomph
    Eclipse IDE for Enterprise Java Developers   <===
    Tools for Java developers creating Enterprise Java and Web applications,
    including a Java IDE, tools for Enterprise Java, JPA, JSF, Mylyn, Maven,
